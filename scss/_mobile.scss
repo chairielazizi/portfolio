@@ -78,8 +78,11 @@
         grid-template-columns: 1fr;
     }
 
-    main {
-        align-items: center;
-        text-align: center;
+    // main {
+    //     align-items: center;
+    //     text-align: center;
+    // }
+    .large-heading {
+        font-size: 4rem; // 6 * 16(the default size for html tags}
     }
 }
