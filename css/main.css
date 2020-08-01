@@ -196,6 +196,12 @@ main {
       opacity: 0.5;
       border-color: #0fa081;
       transition: all 0.7s ease-out; }
+  .projects .desc {
+    background: #515151; }
+    .projects .desc h3 {
+      color: #0fa081;
+      text-align: center;
+      font-weight: 600; }
 
 .boxes {
   display: flex;
@@ -215,6 +221,24 @@ main {
       color: #fff; }
       .boxes div:hover span {
         color: #fff; }
+
+.journey {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; }
+  .journey img {
+    width: 100%;
+    border: 3px #fff solid; }
+    .journey img:hover {
+      opacity: 0.5;
+      border-color: #0fa081;
+      transition: all 0.7s ease-out; }
+  .journey .desc {
+    background: #5e5e5e; }
+    .journey .desc h3 {
+      color: #0fa081;
+      text-align: center;
+      font-weight: 600; }
 
 .btn, .btn-light, .btn-dark {
   display: block;
@@ -284,4 +308,6 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .large-heading {
+    font-size: 4rem; } }
