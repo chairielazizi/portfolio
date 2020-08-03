@@ -309,5 +309,8 @@ main {
     margin-top: 10vh; }
   .projects {
     grid-template-columns: 1fr; }
-  .large-heading {
-    font-size: 4rem; } }
+  main {
+    align-items: center;
+    text-align: center; }
+    main .large-heading {
+      font-size: 3rem; } }
