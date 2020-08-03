@@ -319,6 +319,6 @@ main {
     align-items: center;
     text-align: center; }
     main .large-heading {
-      font-size: 5rem; }
+      font-size: 4.5rem; }
   .journey {
     grid-template-columns: 1fr; } }
