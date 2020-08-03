@@ -3,11 +3,19 @@
     .projects {
         grid-template-columns: repeat(4,1fr);
     }
+
+    .journey {
+        grid-template-columns: repeat(4,1fr);
+    }
 }
 
 // desktop
 @include mediaLarge{
     .projects {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .journey {
         grid-template-columns: repeat(3,1fr);
     }
 }
@@ -66,6 +74,10 @@
     .projects {
         grid-template-columns: repeat(2,1fr);
     }
+
+    .journey {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 //smartphone
@@ -83,8 +95,12 @@
         text-align: center;
         
         .large-heading {
-            font-size: 3rem; // 6 * 16(the default size for html tags}
+            font-size: 5rem; // 6 * 16(the default size for html tags}
         }
+    }
+
+    .journey {
+        grid-template-columns: 1fr;
     }
     
 }
